@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11506.43 insiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B6D4CE2-5041-413E-9E27-FE14C789F51F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pure.Chart.RichRelationalModel.EFCore", "Pure.Chart.RichRelationalModel.EFCore\Pure.Chart.RichRelationalModel.EFCore.csproj", "{D8343977-2D40-4766-B587-76FF744625CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0A055375-6E25-4CBC-9421-F37E409C985C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pure.Chart.RichRelationalModel.EFCore.Tests", "Tests\Pure.Chart.RichRelationalModel.EFCore.Tests\Pure.Chart.RichRelationalModel.EFCore.Tests.csproj", "{057AF548-A498-4C29-B80A-69E3055EA1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8343977-2D40-4766-B587-76FF744625CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8343977-2D40-4766-B587-76FF744625CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8343977-2D40-4766-B587-76FF744625CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8343977-2D40-4766-B587-76FF744625CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057AF548-A498-4C29-B80A-69E3055EA1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057AF548-A498-4C29-B80A-69E3055EA1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057AF548-A498-4C29-B80A-69E3055EA1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057AF548-A498-4C29-B80A-69E3055EA1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{057AF548-A498-4C29-B80A-69E3055EA1A7} = {0A055375-6E25-4CBC-9421-F37E409C985C}
+	EndGlobalSection
+EndGlobal
