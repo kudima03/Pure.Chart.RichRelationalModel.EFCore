@@ -18,7 +18,7 @@ public sealed class ChartDbContext(DbContextOptions<ChartDbContext> options)
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         _ = modelBuilder.ApplyConfiguration(new SeriesConfiguration());
-        _ = modelBuilder.ApplyConfiguration(new SeriesConfiguration());
+        _ = modelBuilder.ApplyConfiguration(new AxisConfiguration());
         _ = modelBuilder.ApplyConfiguration(new ChartTypeConfiguration());
         _ = modelBuilder.ApplyConfiguration(new ChartConfiguration());
     }
