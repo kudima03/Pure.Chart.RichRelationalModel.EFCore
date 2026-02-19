@@ -7,7 +7,7 @@ namespace Pure.Chart.RichRelationalModel.EFCore;
 public sealed class ChartDbContext(DbContextOptions<ChartDbContext> options)
     : DbContext(options)
 {
-    public DbSet<ChartEFCoreModel> Diagrams => Set<ChartEFCoreModel>();
+    public DbSet<ChartEFCoreModel> Charts => Set<ChartEFCoreModel>();
 
     public DbSet<ChartTypeEFCoreModel> Types => Set<ChartTypeEFCoreModel>();
 
