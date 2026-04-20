@@ -13,11 +13,11 @@ public sealed class ChartDbContext(DbContextOptions<ChartDbContext> options)
 
     public DbSet<AxisEFCoreModel> Axes => Set<AxisEFCoreModel>();
 
-    public DbSet<SeriesEFCoreModel> Series => Set<SeriesEFCoreModel>();
+    public DbSet<ChartSeriesEFCoreModel> Series => Set<ChartSeriesEFCoreModel>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        _ = modelBuilder.ApplyConfiguration(new SeriesConfiguration());
+        _ = modelBuilder.ApplyConfiguration(new ChartSeriesConfiguration());
         _ = modelBuilder.ApplyConfiguration(new AxisConfiguration());
         _ = modelBuilder.ApplyConfiguration(new ChartTypeConfiguration());
         _ = modelBuilder.ApplyConfiguration(new ChartConfiguration());
