@@ -14,6 +14,7 @@
     <AssemblyName>Pure.Chart.RichRelationalModel.EFCore</AssemblyName>
     <Authors>Dmitry Kurochkin</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/kudima03/Pure.Chart.RichRelationalModel.EFCore</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
@@ -21,5 +22,8 @@
       Include="Pure.Chart.RichRelationalModel.EFCore.Models.Configurations"
       Version="0.1.0-preview.4.1.1"
     />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
