@@ -6,6 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.6.0.0] — 2026-10-23
+
+### Changed
+
+- **`ChartDbContext`**'s series table now has a required `LineType` column
+  (max 16 characters), mapped from `ChartSeriesEFCoreModel.LineType`.
+  Existing databases need a migration that adds the column.
+- Requires `Pure.Chart.RichRelationalModel.EFCore.Models.Configurations`
+  0.1.0-preview.5.0.0.
+
 ## [0.1.0-preview.5.1.1] — 2026-08-04
 
 - Maintenance release: dependency and build updates.
