@@ -30,7 +30,7 @@ Entity Framework Core `DbContext` for the **Pure.Chart** RichRelationalModel —
 
 ## Dependencies
 
-- [`Pure.Chart.RichRelationalModel.EFCore.Models.Configurations`](https://github.com/kudima03/Pure.Chart.RichRelationalModel.EFCore.Models.Configurations/tree/0.1.0-preview.4.0.0) — EF Core `IEntityTypeConfiguration<T>` implementations for all chart entities
+- [`Pure.Chart.RichRelationalModel.EFCore.Models.Configurations`](https://github.com/kudima03/Pure.Chart.RichRelationalModel.EFCore.Models.Configurations/tree/0.1.0-preview.5.0.0) — EF Core `IEntityTypeConfiguration<T>` implementations for all chart entities
 
 ## Target Frameworks
 
