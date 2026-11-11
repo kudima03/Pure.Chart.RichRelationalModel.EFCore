@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.7.1.0] — 2026-11-11
+
+### Added
+
+- .NET 11 (`net11.0`) target framework.
+
+### Changed
+
+- Requires `Pure.Chart.RichRelationalModel.EFCore.Models.Configurations`
+  0.1.0-preview.6.1.0.
+
 ## [0.1.0-preview.6.0.0] — 2026-10-23
 
 ### Changed
